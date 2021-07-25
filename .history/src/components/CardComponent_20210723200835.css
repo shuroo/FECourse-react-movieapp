@@ -1,0 +1,9 @@
+.actorImg {
+    border-radius: 25%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

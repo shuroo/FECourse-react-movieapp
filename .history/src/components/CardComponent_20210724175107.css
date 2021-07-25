@@ -1,0 +1,24 @@
+.actorImg {
+    border-radius: 25%;
+    object-fit: cover;
+    height: 150px;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-basis: 20%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid greenyellow;
+    align-items: flex-start;
+}

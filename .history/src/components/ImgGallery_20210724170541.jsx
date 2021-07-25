@@ -1,0 +1,1 @@
+<div className="gallery">{actorsHtml}</div>
