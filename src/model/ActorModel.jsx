@@ -11,8 +11,8 @@ class ActorModel{
     }
 
     age(){
-        var thisyear = new Date().getFullYear();
-        var birthyear = this.birthday.getFullYear();
+        var thisyear = (new Date()).getFullYear();
+        var birthyear = new Date(this.birthday).getFullYear();
         return (thisyear - birthyear);
     }
 }
