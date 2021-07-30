@@ -1,0 +1,36 @@
+[{
+        "firstName": "Brad",
+        "lastName": "Pitt",
+        "birthday": "04/06/1975",
+        "image": "./brad_pitt.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0000093/"
+    },
+    {
+        "firstName": "Gal",
+        "lastName": "Gadot",
+        "birthday": "04/06/1975",
+        "image": "./gal_gadot.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0000113/"
+    },
+    {
+        "firstName": "Sandra",
+        "lastName": "Bullock",
+        "birthday": "04/06/1975",
+        "image": "./sandra_bullock.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0000113/"
+    },
+    {
+        "firstName": "Mattew",
+        "lastName": "Mecconohew",
+        "birthday": "04/06/1975",
+        "image": "./mattehew_mecc.jpeg",
+        "imdbLink": "https://www.imdb.com/name/nm0000190/"
+    },
+    {
+        "firstName": "Angelina",
+        "lastName": "Jolie",
+        "birthday": "04/06/1975",
+        "image": "./angeline.jpg",
+        "imdbLink": "https://www.imdb.com/name/nm0001401/"
+    }
+]
