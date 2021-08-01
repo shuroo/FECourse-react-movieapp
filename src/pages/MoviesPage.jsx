@@ -3,6 +3,7 @@ import MovieModel from '../model/MovieModel';
 import MoviesImgGallery from "../components/MoviesImgGallery";
 import {Button,Row,Container,InputGroup} from 'react-bootstrap';
 import InputGroupText  from 'react-bootstrap/InputGroup'; 
+import UpperBar from "../components/UpperBar";
 
 function MoviesPage() {
  
@@ -43,7 +44,7 @@ function MoviesPage() {
         <div >
             <h2>Movies Page</h2>
             <Container>
-
+<UpperBar />
             <InputGroupText>
                 <input value={query} onChange={(e)=>searchForMovies(e)}   placeholder="find movies!"></input>
 

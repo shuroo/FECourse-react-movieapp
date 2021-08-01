@@ -4,6 +4,8 @@ import ActorsImgGallery from "../components/ActorsImgGallery";
 import {Button,Row,Container,InputGroup} from 'react-bootstrap';
 import InputGroupText  from 'react-bootstrap/InputGroup';
 import SortComponent from '../components/SortComponent';
+import UpperBar from "../components/UpperBar";
+
 
 function ActorsPage() {
 
@@ -51,7 +53,7 @@ function ActorsPage() {
         <div >
             <h2>Actors Page</h2>
             <Container>
-
+<UpperBar />
             <SortComponent setSortCriteria={setSortCriteria} sortCriteria={sortCriteria} actors={actors} setActors={setActors} />
             <InputGroupText>
                 <input value={filterText} onChange={(e)=>filterTextByEvent(e)}   placeholder="Filter Actors!"></input>
