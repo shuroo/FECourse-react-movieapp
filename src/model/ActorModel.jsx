@@ -8,6 +8,7 @@ class ActorModel{
         this.image = image;
         this.imdbLink = imdbLink;
         this.age = this.age.bind(this);
+        this.key = this.firstName+"_"+this.lastName;
     }
 
     age(){

@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import ActorModel from '../model/ActorModel';
-import ImgGallery from "../components/ImgGallery";
+import ActorsImgGallery from "../components/ActorsImgGallery";
 import {Button,Row,Container,InputGroup} from 'react-bootstrap';
 import InputGroupText  from 'react-bootstrap/InputGroup';
 import SortComponent from '../components/SortComponent';
@@ -60,7 +60,7 @@ function ActorsPage() {
             <Button variant="secondary" onClick={filterByFirstName}>Filter By First Name</Button>   
 
             <Button variant="secondary" onClick={filterByLastName}>Filter By Last Name</Button> 
-            { <Row> <ImgGallery actors={actors}/> </Row> }
+            { <Row> <ActorsImgGallery actors={actors}/> </Row> }
             </Container>
  
         </div>
